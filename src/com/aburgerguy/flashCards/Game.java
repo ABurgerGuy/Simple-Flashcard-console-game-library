@@ -9,6 +9,8 @@ package com.aburgerguy.flashCards;
 
 import java.util.Scanner;
 
+//W.I.P
+
 public class Game {
 
     private int score = 0;
@@ -19,7 +21,7 @@ public class Game {
         Scanner input = new Scanner(System.in);
         //game loop
         for(FlashCard flashCard : gameCards){
-            System.out.println("Term " + flashCard.getCardName());
+            System.out.println("Term : " + flashCard.getCardName());
             System.out.print("what do you think the answer is? : ");
             String answer = input.next();
             if (flashCard.compareToDefinition(answer)){
@@ -29,7 +31,7 @@ public class Game {
                 if (score > 0) score--;
 
             }
-            System.out.println("Score : {score}");
+            System.out.println("Score : " + score  + "\n");
 
 place++;
         }
