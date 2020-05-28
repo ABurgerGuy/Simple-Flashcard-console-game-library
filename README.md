@@ -28,3 +28,10 @@ Once you have your flashcards in the variable the final step is to send them int
 to exemplify what you can do with it. 
 
 Have fun using the library and enjoy the world of coding!
+
+
+# REMEMBER
+
+You will have to change the directory file to where you desire for it to work!
+
+
