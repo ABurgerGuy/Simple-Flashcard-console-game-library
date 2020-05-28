@@ -21,7 +21,7 @@ public class Main {
         FlashCard[] cards = reader.createCards();
         System.out.println(cards[2].getCardName());
 
-
+        Game game = new Game(cards);
 
     }
 }
