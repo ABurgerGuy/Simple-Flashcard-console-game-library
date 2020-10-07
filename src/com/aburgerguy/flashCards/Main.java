@@ -1,5 +1,6 @@
 package com.aburgerguy.flashCards;
 
+
 public class Main {
 
     public static void main(String[] args) {
@@ -7,7 +8,7 @@ public class Main {
 
         FlashCard helloCard = new FlashCard("hello","a greeting");
 
-        CardRead reader = new CardRead("C:\\Users\\mcder\\Documents\\FlashCards");
+        CardRead reader = new CardRead("C:\\Users\\Grey McDermitt\\Documents\\FlashCards");
 
         //LinkedList<FlashCard> cardStack = new LinkedList<>();
 

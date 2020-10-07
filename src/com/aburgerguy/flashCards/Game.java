@@ -17,14 +17,15 @@ public class Game {
 
     public Game(FlashCard[] gameCards){
         System.out.println("Welcome to Burger's flashcard extravaganza! Enjoy the game!");
-        int place = 0;
+
         Scanner input = new Scanner(System.in);
         //game loop
         for(FlashCard flashCard : gameCards){
             System.out.println("Term : " + flashCard.getCardName());
             System.out.print("what do you think the answer is? : ");
-            String answer = input.next();
+            String answer = input.nextLine();
             if (flashCard.compareToDefinition(answer)){
+                System.out.println("That's correct! :)");
                 score++;
             } else {
                 System.out.println("Sorry that's wrong :(");
@@ -33,9 +34,9 @@ public class Game {
             }
             System.out.println("Score : " + score  + "\n");
 
-place++;
-        }
 
+        }
+        System.out.println("You finished with a score of : " + score + "!");
 
     }
 
